@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Notes</title>
+
+    <link rel="stylesheet" href="build/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+      <header class="header">
+            <div class="header-title">
+                  <img src="/assets/noteIcon.svg" alt="note"/> 
+                  <span>Notes</span>
+            </div>
+            <div class="header-search">
+                  <img src="/assets/magnifier.svg" alt="magnifier" /> 
+                  <input id="search-input" type="text" placeholder="Search notes...">
+             </div>    
+      </header>
+      <main>
+            <div class="empty-list">
+                  <img class='header-info-icon' src="/assets/circleInfo.svg" alt="circle info" />   
+                  <p class="empty-list-paragraph-first">No notes yet</p> 
+                  <p>Add a note to keep track of your learnings.</p>
+                  <button class="empty-list-button">
+                    <img src="/assets/noteAdd.svg" alt="add note" />  
+                    <span>Add Note</span>
+                  </button>
+            </div>
+            <div class="add-new-button-container hide">
+                  <button class="add-new-button">Add New</button>
+            </div>
+            <div class="add-note hide">
+                  <div class="add-note-header">
+                        <span>Add new note</span>
+                        <button class="add-note-cancel">Cancel</button>
+                  </div>
+                  <form class="add-note-form">
+                        <input type="text" placeholder="Note title">
+                        <textarea type="text" placeholder="Your note"></textarea>
+                        <button class="add-note-save">Save</button>
+                  </form>
+            </div>
+            <div class="list-view">
+                 <ul class="list-container">
+                 </ul>
+            </div>
+            <div class="dialog hide" >
+                  <div class="dialog-content" >
+                        <p class="dialog-title">Delete Note</p>
+                        <p class="dialog-text">Are you sure you want to delete this note?</p>
+                        <div class="dialog-button-container">
+                              <button class="dialog-cancel-button button">Cancel</button>
+                              <button class="dialog-delete-button button">Delete</button>
+                        </div>
+                  </div>
+            </div>
+      </main>
+<script src="build/out.js"></script>
+</body>
+</html>

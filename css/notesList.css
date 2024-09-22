@@ -1,0 +1,75 @@
+.list-container{
+    list-style: none;
+    width: 100%;
+}
+
+.list-view{
+    padding: 0 16px 20px 16px;
+}
+
+.list-item-button{
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.list-item-button.edit{
+   margin-right: 8px;
+}
+
+.list-item{
+    padding: 12px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.07) ;
+    border-radius: 12px;
+    margin-bottom: 16px;
+}
+
+.list-item-title{
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list-item-text{
+    font-weight: 400;
+    color: rgba(59, 60, 62, 1)
+}
+
+.list-item-date{
+    font-size: 12px;
+    color: rgba(91, 92, 94, 1);
+    font-weight: 400;
+}
+
+
+.add-new-button{
+  background-color: rgba(107, 60, 155, 1);
+  width: 100%;
+  color: rgba(255, 255, 255, 1);
+  height: 40px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.add-new-button-container{
+    padding: 0 16px 24px 16px;
+}
+
+.add-new-button:hover{
+    background-color: rgba(132, 77, 186, 1);
+}
+
+.add-new-button:active{
+    background-color: rgba(91, 47, 135, 1);
+}
+
