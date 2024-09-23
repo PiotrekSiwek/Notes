@@ -5,7 +5,7 @@ import "../css/notesList.css";
 import "../css/dialog.css";
 import "../css/header.css";
 
-import { getDate } from "../utils/utils.js";
+import { getDate } from "./utils.js";
 import { createNoteElement } from "./noteItem.js";
 
 const addNoteButton = document.querySelector('.empty-list-button');

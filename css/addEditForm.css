@@ -1,4 +1,4 @@
-.add-note{
+.add-note {
     border-width: 1px 0; 
     border-style: solid;
     border-color: rgba(238, 239, 240, 1);
@@ -7,20 +7,20 @@
     box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.08);
 }
 
-.add-note-header{
+.add-note-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 16px;
 }
 
-.add-note-form{
+.add-note-form {
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
 
-.add-note-form input{
+.add-note-form input {
     background-color: rgba(238, 239, 240, 1);
     border: none;
     border-radius: 12px; 
@@ -45,20 +45,21 @@
     padding-top: 8px;
 }
 
-.add-note-form input:focus, .add-note-form textarea:focus{
+.add-note-form input:focus, .add-note-form textarea:focus {
     background-color: rgba(255, 255, 255, 1);
-
+    outline: 1px solid rgba(27, 28, 30, 1);
 }
 
-.add-note-form input:hover, .add-note-form textarea:hover{
+.add-note-form input:hover, .add-note-form textarea:hover {
     background-color: rgba(220, 222, 224, 1);
 }
 
 .add-note-form input:focus:hover, .add-note-form textarea:focus:hover {
     background-color: rgba(255, 255, 255, 1);
+    outline: 1px solid rgba(27, 28, 30, 1);
 }
 
-.add-note-save{
+.add-note-save {
     border-radius: 12px;
     background-color: rgba(107, 60, 155, 1);
     height: 40px;
@@ -70,7 +71,7 @@
     cursor: pointer;
 }
 
-.add-note-cancel{
+.add-note-cancel {
     background: none;
     border: none;
     padding: 0;
@@ -81,14 +82,14 @@
     text-decoration: none;
 }
 
-.add-note-cancel:hover{
+.add-note-cancel:hover {
         text-decoration: underline;
 }
 
-.add-note-save:hover{
+.add-note-save:hover {
     background-color: rgba(132, 77, 186, 1);
 }
 
-.add-note-save:active{
+.add-note-save:active {
     background-color: rgba(91, 47, 135, 1);
 }

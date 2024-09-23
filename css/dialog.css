@@ -22,7 +22,7 @@
     flex-direction: column;
 }
 
-.dialog-button-container{
+.dialog-button-container {
     display: flex;
     justify-content: space-between;
 }
@@ -31,23 +31,23 @@
     display: none;
 }
 
-.dialog-title{
+.dialog-title {
     font-size: 20px;
     font-weight: 500;
 }
 
-.dialog-text{
+.dialog-text {
     font-size: 16px;
     margin: 24px 0;
     font-weight: 400;
 }
 
-.dialog-cancel-button{
+.dialog-cancel-button {
     background: none;
     border: 1px solid rgba(188, 188, 189, 1);
 }
 
-.dialog-delete-button{
+.dialog-delete-button {
     background:rgba(107, 60, 155, 1);
     border: 1px solid rgba(107, 60, 155, 1) ;
     color: rgba(255, 255, 255, 1);

@@ -1,4 +1,4 @@
-.header{
+.header {
     padding: 20px 16px 0 16px;
 }
 
@@ -19,7 +19,7 @@
     margin: 24px 0;
 }
 
-.header-search img {
+.header-search svg {
     position: absolute; 
     left: 10px; 
     top: 50%; 
@@ -43,7 +43,7 @@
 
 .header-search input:focus {
     background-color: rgba(255, 255, 255, 1);
-
+    outline: 1px solid rgba(27, 28, 30, 1);
 }
 
 .header-search input:hover {
@@ -52,4 +52,5 @@
 
 .header-search input:focus:hover {
     background-color: rgba(255, 255, 255, 1);
+    outline: 1px solid rgba(27, 28, 30, 1);
 }

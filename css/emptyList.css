@@ -7,12 +7,7 @@
     padding: 36px 16px;
 }
 
-.header-info-icon{
-    width: 64px;
-    height: 64px;
-}
-
-.empty-list-button{
+.empty-list-button {
     display: flex;
     align-items: center;
     height: 40px;
@@ -28,16 +23,16 @@
     font-size: 16px;
 }
 
-.empty-list-button:hover{
+.empty-list-button:hover {
     background-color: rgba(231, 231, 231, 1);
 }
 
-.empty-list-button:active{
+.empty-list-button:active {
     background-color: rgba(189, 189, 189, 1);
     ;
 }
 
-.empty-list-paragraph-first{
+.empty-list-paragraph-first {
     font-size: 20px;
     line-height: 30px;
     font-weight: 500;
